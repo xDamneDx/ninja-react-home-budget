@@ -6,7 +6,7 @@ import { fetchData } from "../helpers";
 
 // Loader:
 export function dashboardLoader() {
-  const userName = fetchData("username");
+  const userName = fetchData("userName");
 
   return { userName };
 }
