@@ -1,3 +1,8 @@
+// Dev only fetching simulator:
+export const waait = () =>
+  new Promise((res) => setTimeout(res, Math.random() * 2000));
+
+// Random color:
 const generateRandomColor = () => {
   const existingBudgetLength = fetchData("budgets")?.length ?? 0;
 
